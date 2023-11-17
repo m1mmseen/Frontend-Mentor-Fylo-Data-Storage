@@ -1,0 +1,17 @@
+@import "variables";
+
+@mixin flex($align: center, $justify: center) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+@mixin box {
+  box-sizing: border-box;
+  min-width: 330px;
+  @include flex(flex-start, flex-start);
+  flex-flow: column wrap;
+  gap: $primary-gap;
+  background-color: $bg-clr;
+  padding: 2rem;
+}

@@ -1,0 +1,20 @@
+@font-face {
+  font-family: raleway;
+  src: url("fonts/Raleway-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: raleway;
+  src: url("fonts/Raleway-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+$primary-clr: linear-gradient(to right ,hsl(6 100% 80%), hsl(335 100% 65%));
+$bg-clr: hsl(228 56% 26%);
+$text-clr: hsl(243 100% 93%);
+$info-text-primary-clr: hsl(229 57% 11%);
+$info-text-secondary-clr: hsl(229 7% 55%);
+$primary-gap: 2rem;
